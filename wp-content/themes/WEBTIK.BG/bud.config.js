@@ -34,13 +34,13 @@ export default async (app) => {
      * Proxy origin (`WP_HOME`)
      * @see {@link https://bud.js.org/docs/bud.proxy/}
      */
-    .proxy('http://example.test')
+    .proxy('http://balkanburrito.test')
 
     /**
      * Development origin
      * @see {@link https://bud.js.org/docs/bud.serve/}
      */
-    .serve('http://localhost:3000')
+    .serve(3000)
 
     /**
      * URI of the `public` directory
