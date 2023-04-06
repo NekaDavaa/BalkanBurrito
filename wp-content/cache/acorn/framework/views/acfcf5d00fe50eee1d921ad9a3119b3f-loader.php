@@ -1,0 +1,2 @@
+<?= \Roots\view('partials.comments', $data ?? get_defined_vars())->render(); ?>
+<?php /**PATH C:\laragon\www\BalkanBurrito\wp-content\themes\balkanburrito\resources\views/partials/comments.blade.php ENDPATH**/ ?>
