@@ -34,7 +34,7 @@ export default async (app) => {
      * Proxy origin (`WP_HOME`)
      * @see {@link https://bud.js.org/docs/bud.proxy/}
      */
-    .proxy('http://192.168.16.1/www/balkanburrito')
+    .proxy('http://balkanburrito.test')
 
     /**
      * Development origin
